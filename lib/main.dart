@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "ઋ":"Ò",  "ઋા":"Òt","ઋિ":"rÒ","ઋી":"Òe","ઋુ":"Òw","ઋૂ":"Òq","ઋે":"Òu","ઋૈ":"Òi","ઋો":"Òtu","ઋૌ":"Òti","ઋં":"Òk","ઋઃ":"Ò&",
   };*/
 
-  Map<String,String> map = {
+  Map<String, String> map = {
     'અ': 'y',
     'આ': 'yt',
     'ઇ': 'E',
@@ -254,7 +254,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "જ": "s",
     "જા": "st",
     "જિ": "rs",
-    "જી": "se",
+    "જી": "B",
     "જુ": "sw",
     "જૂ": "sq",
     "જે": "su",
@@ -349,32 +349,32 @@ class _MyHomePageState extends State<MyHomePage> {
     "ણઃ": "Kt7",
 
     // ત family
-    "ત": ":t",
-    "તા": ":tt",
-    "તિ": "r:t",
-    "તી": ":te",
-    "તુ": ":tw",
-    "તું": ":tq",
-    "તે": ":tu",
-    "તૈ": ":ti",
-    "તો": ":ttu",
-    "તૌ": ":tti",
-    "તં": ":tk",
-    "તઃ": ":t7",
+    "ત": ";t",
+    "તા": ";tt",
+    "તિ": "r;t",
+    "તી": ";te",
+    "તુ": ";tw",
+    "તું": ";tq",
+    "તે": ";tu",
+    "તૈ": ";ti",
+    "તો": ";ttu",
+    "તૌ": ";tti",
+    "તં": ";tk",
+    "તઃ": ";t7",
 
     // થ family
-    "થ": ";t",
-    "થા": ";tt",
-    "થિ": "r;t",
-    "થી": ";te",
-    "થુ": ";tw",
-    "થૂ": ";tq",
-    "થે": ";tu",
-    "થૈ": ";ti",
-    "થો": ";ttu",
-    "થૌ": ";tti",
-    "થં": ";tk",
-    "થઃ": ";t7",
+    "થ": ":t",
+    "થા": ":tt",
+    "થિ": "r:t",
+    "થી": ":te",
+    "થુ": ":tw",
+    "થૂ": ":tq",
+    "થે": ":tu",
+    "થૈ": ":ti",
+    "થો": ":ttu",
+    "થૌ": ":tti",
+    "થં": ":tk",
+    "થઃ": ":t7",
 
     // દ family
     "દ": "'",
@@ -643,99 +643,234 @@ class _MyHomePageState extends State<MyHomePage> {
     "જ્ઞઃ": "\\t7",
 
     // શ્ર family
-    "શ્ર":"~t",
-    "શ્રા":"~tt",
-    "શ્રિ":"r~t",
-    "શ્રી":"~te",
-    "શ્રુ":"~tw",
-    "શ્રૂ":"~tq",
-    "શ્રે":"~tu",
-    "શ્રૈ": "~ti",
-    "શ્રો": "~ttu",
-    "શ્રૌ": "~tti",
-    "શ્રં":"~tk",
-    "શ્રઃ":"~t7",
+    "શ્ર": "`",
+    "શ્રા": "`t",
+    "શ્રિ": "r`",
+    "શ્રી": "`e",
+    "શ્રુ": "`w",
+    "શ્રૂ": "`q",
+    "શ્રે": "`u",
+    "શ્રૈ": "`i",
+    "શ્રો": "`u",
+    "શ્રૌ": "`i",
+    "શ્રં": "`k",
+    "શ્રઃ": "`7",
 
-    "ર્ક":"fo",
-    "ર્ખ":"Fo",
-    "ર્ગ":"dto",
-    "ર્ઘ":"Dto",
-    "ર્ચ":"ato",
-    "ર્છ":"Ao",
-    "ર્જ":"so",
-    "ર્ઝ":"Lo",
-    "ર્ટ":"xo",
-    "ર્ઠ":"Xo",
-    "ર્ડ":"zo",
-    "ર્ઢ":"Zo",
-    "ર્ણ":"Kto",
-    "ર્ત":":to",
-    "ર્થ":";to",
-    "ર્દ":"\'o",
-    "ર્ધ":"\"o",
-    "ર્ન":"lto",
-    "ર્પ":"vto",
-    "ર્ફ":"Vo",
-    "ર્બ":"cto",
-    "ર્ભ":"CtO",
-    "ર્મ":"bto",
-    "ર્ય":"gto",
-    "ર્ર":"ho",
-    "ર્લ":"jto",
-    "ર્ળ":"Go",
-    "ર્વ":"Jto",
-    "ર્શ":"Nto",
-    "ર્ષ":"Mto",
-    "ર્સ":"mto",
-    "ર્હ":"no",
-    "ર્ળ":"Go",
-    "ર્ક્ષ":"Hto",
-    "ર્જ્ઞ":"\\to",
+    "ર્ક": "fo",
+    "ર્ખ": "Fo",
+    "ર્ગ": "dto",
+    "ર્ઘ": "Dto",
+    "ર્ચ": "ato",
+    "ર્છ": "Ao",
+    "ર્જ": "so",
+    "ર્ઝ": "Lo",
+    "ર્ટ": "xo",
+    "ર્ઠ": "Xo",
+    "ર્ડ": "zo",
+    "ર્ઢ": "Zo",
+    "ર્ણ": "Kto",
+    "ર્ત": ";to",
+    "ર્થ": ":to",
+    "ર્દ": "\'o",
+    "ર્ધ": "\"o",
+    "ર્ન": "lto",
+    "ર્પ": "vto",
+    "ર્ફ": "Vo",
+    "ર્બ": "cto",
+    "ર્ભ": "CtO",
+    "ર્મ": "bto",
+    "ર્ય": "gto",
+    "ર્ર": "ho",
+    "ર્લ": "jto",
+    "ર્ળ": "Go",
+    "ર્વ": "Jto",
+    "ર્શ": "Nto",
+    "ર્ષ": "Mto",
+    "ર્સ": "mto",
+    "ર્હ": "no",
+    "ર્ળ": "Go",
+    "ર્ક્ષ": "Hto",
+    "ર્જ્ઞ": "\\to",
 
-    "ક્ર":"-",
-    "ખ્ર":"Ft[",
-    "ગ્ર":"dt[",
-    "ઘ્ર":"Dt[",
-    "ચ્ર":"at[",
-    "છ્ર":"A[",
-    "જ્ર":"s[",
-    "ઝ્ર":"L[",
-    "ટ્ર":"x[",
-    "ઠ્ર":"X[",
-    "ડ્ર":"z[",
-    "ઢ્ર":"Z[",
-    "ણ્ર":"Kt[",
-    "ત્ર":"8t",
-    "થ્ર":";t[",
-    "દ્ર":"Y",
-    "ન્ર":"lt[",
-    "પ્ર":"vt[",
-    "ફ્ર":"V[",
-    "બ્ર":"ct",
-    "ભ્ર":"Ct[",
-    "મ્ર":"bt[",
-    "ય્ર":"gt[",
-    "લ્ર":"jt[",
-    "ળ્ર":"G[",
-    "વ્ર":"Jt[",
-    "ષ્ર":"Mt[",
-    "સ્ર":"mt[",
-    "હ્ર":"Ñ",
-    "ળ્ર":"G[",
-    "ક્ષ્ર":"Ht[",
-    "જ્ઞ્ર":"\\t[",
+    "ક્ર": "-",
+    "ખ્ર": "Ft{",
+    "ગ્ર": "dt{",
+    "ઘ્ર": "Dt{",
+    "ચ્ર": "at{",
+    "છ્ર": "A{",
+    "જ્ર": "s{",
+    "ઝ્ર": "L{",
+    "ટ્ર": "x{",
+    "ઠ્ર": "X{",
+    "ડ્ર": "z{",
+    "ઢ્ર": "Z{",
+    "ણ્ર": "Kt{",
+    "ત્ર": "*t{",
+    "થ્ર": ";t{",
+    "દ્ર": "Y{",
+    "ન્ર": "lt{",
+    "પ્ર": "vt{",
+    "ફ્ર": "V{",
+    "બ્ર": "ct{",
+    "ભ્ર": "Ct{",
+    "મ્ર": "bt{",
+    "ય્ર": "gt{",
+    "લ્ર": "jt{",
+    "ળ્ર": "G{",
+    "વ્ર": "Jt{",
+    "ષ્ર": "Mt{",
+    "સ્ર": "mt{",
+    "હ્ર": "Ñ",
+    "ળ્ર": "G{",
+    "ક્ષ્ર": "Ht{",
+    "જ્ઞ્ર": "\\t{",
 
     "શ્વ": "PJt",
-    "શ્ચ":"|",
-    "દ્ધ":"]",
-    "દ્ધા":"]t",
-    "માં":"btk",
-    "કિં":"rfk",
-    "દ્વા":"«t",
-    "ઠ્ઠ":"¸",
-    "ક્ક":"²",
+    "શ્ચ": "|",
+    "દ્ધ": "]",
+    "દ્ધા": "]t",
+    "માં": "btk",
+    "કિં": "rfk",
+    "દ્વા": "«t",
+    "ઠ્ઠ": "¸",
+    "ક્ક": "²",
+    "ફ્ર": "§",
+    "પ્ર": "©",
+    "દ્વ": "«",
+    "જ્ર": "¯",
+    "શ્ન": "±",
+    "જ્જ": "´",
+    "દ્મ": "Æ",
+    "ન્ન": "Ë",
+    "રુ": "Ì",
+    "હ્મ": "Í",
+    "શ્વ": "\\",
+    "ા": "t",
+    "ક્કા": "²t",
+    "ક્કિ": "r²",
+    "ક્કી": "²e",
+    "ક્કુ": "²w",
+    "ક્કૂ": "²q",
+    "ક્કે": "²u",
+    "ક્કૈ": "²i",
+    "ક્કો": "²tu",
+    "ક્કૌ": "²ti",
+    "ક્કં": "²k",
+    "ક્કઃ": "²&",
+    "ફ્રા": "§t",
+    "ફ્રિ": "r§",
+    "ફ્રી": "§e",
+    "ફ્રુ": "§w",
+    "ફ્રૂ": "§q",
+    "ફ્રે": "§u",
+    "ફ્રૈ": "§i",
+    "ફ્રો": "§tu",
+    "ફ્રૌ": "§ti",
+    "ફ્રં": "§k",
+    "ફ્રઃ": "§&",
+    "પ્ર": "©",
+    "પ્રા": "©t",
+    "પ્રિ": "r©",
+    "પ્રી": "©e",
+    "પ્રુ": "©w",
+    "પ્રૂ": "©q",
+    "પ્રે": "©u",
+    "પ્રૈ": "©i",
+    "પ્રો": "©tu",
+    "પ્રૌ": "©ti",
+    "પ્રં": "©k",
+    "પ્રઃ": "©&",
+    "દ્રા": "Yt",
+    "દ્રિ": "rY",
+    "દ્રી": "Ye",
+    "દ્રુ": "Yw",
+    "દ્રૂ": "Yq",
+    "દ્રે": "Yu",
+    "દ્રૈ": "Yi",
+    "દ્રો": "Ytu",
+    "દ્રૌ": "Yti",
+    "દ્રં": "Yk",
+    "દ્રઃ": "Y&",
+    "દ્વા": "«t",
+    "દ્વિ": "r«",
+    "દ્વી": "«e",
+    "દ્વુ": "«w",
+    "દ્વૂ": "«q",
+    "દ્વે": "«u",
+    "દ્વૈ": "«i",
+    "દ્વો": "«tu",
+    "દ્વૌ": "«ti",
+    "દ્વં": "«k",
+    "દ્વઃ": "«&",
+    "જ્ર": "¯",
+    "જ્રા": "¯t",
+    "જ્રિ": "r¯",
+    "જ્રી": "¯e",
+    "જ્રુ": "¯w",
+    "જ્રૂ": "¯q",
+    "જ્રે": "¯u",
+    "જ્રૈ": "¯i",
+    "જ્રો": "¯tu",
+    "જ્રૌ": "¯ti",
+    "જ્રં": "¯k",
+    "જ્રઃ": "¯&",
+    "શ્ના": "±t", "શ્નિ": "r±", "શ્ની": "±e", "શ્નુ": "±w", "શ્નૂ": "±q", "શ્ને": "±u", "શ્નૈ": "±i", "શ્નો": "±tu", "શ્નૌ": "±ti", "શ્નં": "±k", "શ્નઃ": "±&",
+    "જ્જા": "´t", "જ્જિ": "r´", "જ્જી": "´e", "જ્જુ": "´w", "જ્જૂ": "´q", "જ્જે": "´u", "જ્જૈ": "´i", "જ્જો": "´tu", "જ્જૌ": "´ti", "જ્જં": "´k", "જ્જઃ": "´&",
+    "દ્મા": "Æt", "દ્મિ": "rÆ", "દ્મી": "Æe", "દ્મુ": "Æw", "દ્મૂ": "Æq", "દ્મે": "Æu", "દ્મૈ": "Æi", "દ્મો": "Ætu", "દ્મૌ": "Æti", "દ્મં": "Æk", "દ્મઃ": "Æ&",
+    "ન્ના": "Ët", "ન્નિ": "rË", "ન્ની": "Ëe", "ન્નુ": "Ëw", "ન્નૂ": "Ëq", "ન્ને": "Ëu", "ન્નૈ": "Ëi", "ન્નો": "Ëtu", "ન્નૌ": "Ëti", "ન્નં": "Ëk", "ન્નઃ": "Ë&",
+    "હ્મા": "Ít", "હ્મિ": "rÍ", "હ્મી": "Íe", "હ્મુ": "Íw", "હ્મૂ": "Íq", "હ્મે": "Íu", "હ્મૈ": "Íi", "હ્મો": "Ítu", "હ્મૌ": "Íti", "હ્મં": "Ík", "હ્મઃ": "Í&",
+    "શ્વા": "\\t", "શ્વિ": "r\\", "શ્વી": "\\e", "શ્વુ": "\\w", "શ્વૂ": "\\q", "શ્વે": "\\u", "શ્વૈ": "\\i", "શ્વો": "\\tu", "શ્વૌ": "\\ti", "શ્વં": "\\k", "શ્વઃ": "\\&",
+    "ઋા": "Òt", "ઋિ": "rÒ", "ઋી": "Òe", "ઋુ": "Òw", "ઋૂ": "Òq", "ઋે": "Òu", "ઋૈ": "Òi", "ઋો": "Òtu", "ઋૌ": "Òti", "ઋં": "Òk", "ઋઃ": "Ò&",
+    "િ": "r",    // i (prepended)
+    "ી": "e",    // ii
+    "ુ": "w",    // u
+    "ૂ": "q",    // uu
+    "ે": "u",    // e
+    "ૈ": "i",    // ai
+    "ો": "tu",   // o
+    "ૌ": "ti",   // au
+    "ં": "k",    // anusvara
+    "ઃ": "7",
 
 
+    "ક્": "f",
+    "ખ્": "F",
+    "ગ્": "d",
+    "ઘ્": "D",
+    "ઙ્": "T",
+    "ચ્": "a",
+    "છ્": "A",
+    "જ્": "s",
+    "ઝ્": "S",
+    "ઞ્": "~",
+    "ટ્": "x",
+    "ઠ્": "X",
+    "ડ્": "z",
+    "ઢ્": "Z",
+    "ણ્": "K",
+    "ત્": ":",
+    "થ્": ";",
+    "દ્": "'",
+    "ધ્": "\"",
+    "ન્": "l",
+    "પ્": "v",
+    "ફ્": "V",
+    "બ્": "c",
+    "ભ્": "C",
+    "મ્": "b",
+    "ય્": "g",
+    "ર્": "h",
+    "લ્": "j",
+    "વ્": "J",
+    "શ્": "N",
+    "ષ્": "M",
+    "સ્": "m",
+    "હ્": "n",
+    "ળ્": "G",
+    "ક્ષ્": "H",
+    "ત્ર્": "*",
+    "જ્ઞ્": "|",
+    "કૃ":"f]"
   };
   @override
   void initState() {
@@ -751,7 +886,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   /// Each time to start a speech recognition session
   void _startListening() async {
-    await _speechToText.listen(onResult: _onSpeechResult,localeId: 'gu-IN',);
+    await _speechToText.listen(
+      onResult: _onSpeechResult,
+      localeId: 'gu-IN',
+    );
     setState(() {});
   }
 
@@ -766,10 +904,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   /// This is the callback that the SpeechToText plugin calls when
   /// the platform returns recognized words.
-   _onSpeechResult(SpeechRecognitionResult result) {
-
-     _lastWords = result.recognizedWords;
-     /*_lastWords.split('').map((e) => print(e));
+  _onSpeechResult(SpeechRecognitionResult result) {
+    print(result);
+    _lastWords = result.recognizedWords;
+    /*_lastWords.split('').map((e) => print(e));
      _lastWords1="";
      for (int i = 0; i < _lastWords.length; i++) {
        String char = _lastWords[i];
@@ -779,19 +917,17 @@ class _MyHomePageState extends State<MyHomePage> {
          _lastWords1 += char; // Handle characters not in the map
        }
      }*/
-    setState(() {
-
-    });
+    setState(() {});
   }
 
   String convertToEklg(String input) {
     String output = input;
 
     // Replace longest matches first (like કો before ક)
-    final sortedKeys = map.keys.toList()
-      ..sort((a, b) => b.length.compareTo(a.length));
+    final sortedKeys = map.keys.toList()..sort((a, b) => b.length.compareTo(a.length));
 
     for (var key in sortedKeys) {
+      print("key : $key");
       output = output.replaceAll(key, map[key]!);
     }
 
@@ -822,13 +958,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   // If listening is active show the recognized words
                   _lastWords1.isNotEmpty
                       ? '${_lastWords1}'
-                  // If listening isn't active but could be tell the user
-                  // how to start it, otherwise indicate that speech
-                  // recognition is not yet ready or not supported on
-                  // the target device
+                      // If listening isn't active but could be tell the user
+                      // how to start it, otherwise indicate that speech
+                      // recognition is not yet ready or not supported on
+                      // the target device
                       : _speechEnabled
-                      ? 'mttkCtGJtt bttxu bttE_tuVtult vth fjtef fhtu'
-                      : 'Speech not available',
+                          ? 'mttkCtGJtt bttxu bttE_tuVtult vth fjtef fhtu'
+                          : 'Speech not available',
                   style: TextStyle(fontFamily: 'EKLG-13B'),
                 ),
               ),
@@ -840,13 +976,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   // If listening is active show the recognized words
                   _speechToText.isListening
                       ? '${_lastWords}'
-                  // If listening isn't active but could be tell the user
-                  // how to start it, otherwise indicate that speech
-                  // recognition is not yet ready or not supported on
-                  // the target device
+                      // If listening isn't active but could be tell the user
+                      // how to start it, otherwise indicate that speech
+                      // recognition is not yet ready or not supported on
+                      // the target device
                       : _speechEnabled
-                      ? 'Tap the microphone to start listening...'
-                      : 'Speech not available',
+                          ? _lastWords.isNotEmpty
+                              ? '$_lastWords'
+                              : 'Tap the microphone to start listening...'
+                          : 'Speech not available',
                 ),
               ),
             ),
@@ -857,31 +995,31 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisSize: MainAxisSize.min,
         children: [
           FloatingActionButton(
-            onPressed:(){
-             setState(() {
-               _lastWords1 += "\n"+convertToEklg(_lastWords);
-             });
+            onPressed: () {
+              setState(() {
+                _lastWords1 += "\n" + convertToEklg(_lastWords);
+              });
             },
-
-
             tooltip: 'Convert',
             child: Icon(Icons.camera_outlined),
           ),
-          SizedBox(height: 16,),
+          SizedBox(
+            height: 16,
+          ),
           FloatingActionButton(
-            onPressed:(){
+            onPressed: () {
               _copyToClipboard(_lastWords1);
             },
-
-
             tooltip: 'Copy text',
             child: Icon(Icons.copy),
           ),
-          SizedBox(height: 16,),
+          SizedBox(
+            height: 16,
+          ),
           FloatingActionButton(
             onPressed:
-            // If not yet listening for speech start, otherwise stop
-            _speechToText.isNotListening ? _startListening : _stopListening,
+                // If not yet listening for speech start, otherwise stop
+                _speechToText.isNotListening ? _startListening : _stopListening,
             tooltip: 'Listen',
             child: Icon(_speechToText.isNotListening ? Icons.mic_off : Icons.mic),
           ),
@@ -907,5 +1045,4 @@ class _MyHomePageState extends State<MyHomePage> {
       );
     }
   }
-
 }
