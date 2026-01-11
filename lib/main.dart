@@ -172,6 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "કિ": "rf",
     "કી": "fe",
     "કુ": "fw",
+    "કું": "fwk",
     "કૂ": "fq",
     "કે": "fu",
     "કૈ": "fi",
@@ -391,18 +392,18 @@ class _MyHomePageState extends State<MyHomePage> {
     "દઃ": "'7",
 
     // ધ family
-    "ધ": "\"",
-    "ધા": "\"t",
-    "ધિ": "r\"",
-    "ધી": "\"e",
-    "ધુ": "\"w",
-    "ધૂ": "\"q",
-    "ધે": "\"u",
-    "ધૈ": "\"i",
-    "ધો": "\"tu",
-    "ધૌ": "\"ti",
-    "ધં": "\"k",
-    "ધઃ": "\"7",
+    "ધ": "\"t",
+    "ધા": "\"tt",
+    "ધિ": "r\"t",
+    "ધી": "\"te",
+    "ધુ": "\"tw",
+    "ધૂ": "\"tq",
+    "ધે": "\"tu",
+    "ધૈ": "\"ti",
+    "ધો": "\"ttu",
+    "ધૌ": "\"tti",
+    "ધં": "\"tk",
+    "ધઃ": "\"t7",
 
     // ન family
     "ન": "lt",
@@ -486,6 +487,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "મો": "bttu",
     "મૌ": "btti",
     "મં": "btk",
+    "માં": "bttk",
     "મઃ": "bt7",
 
     // ય family
@@ -700,7 +702,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "છ્ર": "A{",
     "જ્ર": "s{",
     "ઝ્ર": "L{",
-    "ટ્ર": "x{",
+    "ટ્ર": "x[",
     "ઠ્ર": "X{",
     "ડ્ર": "z{",
     "ઢ્ર": "Z{",
@@ -819,7 +821,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "દ્મા": "Æt", "દ્મિ": "rÆ", "દ્મી": "Æe", "દ્મુ": "Æw", "દ્મૂ": "Æq", "દ્મે": "Æu", "દ્મૈ": "Æi", "દ્મો": "Ætu", "દ્મૌ": "Æti", "દ્મં": "Æk", "દ્મઃ": "Æ&",
     "ન્ના": "Ët", "ન્નિ": "rË", "ન્ની": "Ëe", "ન્નુ": "Ëw", "ન્નૂ": "Ëq", "ન્ને": "Ëu", "ન્નૈ": "Ëi", "ન્નો": "Ëtu", "ન્નૌ": "Ëti", "ન્નં": "Ëk", "ન્નઃ": "Ë&",
     "હ્મા": "Ít", "હ્મિ": "rÍ", "હ્મી": "Íe", "હ્મુ": "Íw", "હ્મૂ": "Íq", "હ્મે": "Íu", "હ્મૈ": "Íi", "હ્મો": "Ítu", "હ્મૌ": "Íti", "હ્મં": "Ík", "હ્મઃ": "Í&",
-    "શ્વા": "\\t", "શ્વિ": "r\\", "શ્વી": "\\e", "શ્વુ": "\\w", "શ્વૂ": "\\q", "શ્વે": "\\u", "શ્વૈ": "\\i", "શ્વો": "\\tu", "શ્વૌ": "\\ti", "શ્વં": "\\k", "શ્વઃ": "\\&",
+    "શ્વા": "PJTt", "શ્વિ": "rPJT", "શ્વી": "PJTe", "શ્વુ": "PJTw", "શ્વૂ": "PJTq", "શ્વે": "PJTu", "શ્વૈ": "PJTi", "શ્વો": "PJTtu", "શ્વૌ": "PJTti", "શ્વં": "PJTk", "શ્વઃ": "PJT&",
     "ઋા": "Òt", "ઋિ": "rÒ", "ઋી": "Òe", "ઋુ": "Òw", "ઋૂ": "Òq", "ઋે": "Òu", "ઋૈ": "Òi", "ઋો": "Òtu", "ઋૌ": "Òti", "ઋં": "Òk", "ઋઃ": "Ò&",
     "િ": "r",    // i (prepended)
     "ી": "e",    // ii
@@ -848,8 +850,8 @@ class _MyHomePageState extends State<MyHomePage> {
     "ડ્": "z",
     "ઢ્": "Z",
     "ણ્": "K",
-    "ત્": ":",
-    "થ્": ";",
+    "ત્": ";",
+    "થ્": ":",
     "દ્": "'",
     "ધ્": "\"",
     "ન્": "l",
@@ -1170,13 +1172,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   // If listening is active show the recognized words
                   _lastWords1.isNotEmpty
                       ? '${_lastWords1}'
-                  // If listening isn't active but could be tell the user
-                  // how to start it, otherwise indicate that speech
-                  // recognition is not yet ready or not supported on
-                  // the target device
+                      // If listening isn't active but could be tell the user
+                      // how to start it, otherwise indicate that speech
+                      // recognition is not yet ready or not supported on
+                      // the target device
                       : _speechEnabled
-                      ? 'mttkCtGJtt bttxu bttE_tuVtult vth fjtef fhtu'
-                      : 'Speech not available',
+                          ? 'mttkCtGJtt bttxu bttE_tuVtult vth fjtef fhtu'
+                          : 'Speech not available',
                   style: TextStyle(fontFamily: 'EKLG-13B'),
                 ),
               ),
@@ -1188,15 +1190,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   // If listening is active show the recognized words
                   _speechToText.isListening
                       ? '${_lastWords}'
-                  // If listening isn't active but could be tell the user
-                  // how to start it, otherwise indicate that speech
-                  // recognition is not yet ready or not supported on
-                  // the target device
+                      // If listening isn't active but could be tell the user
+                      // how to start it, otherwise indicate that speech
+                      // recognition is not yet ready or not supported on
+                      // the target device
                       : _speechEnabled
-                      ? _lastWords.isNotEmpty
-                      ? '$_lastWords'
-                      : 'Tap the microphone to start listening...'
-                      : 'Speech not available',
+                          ? _lastWords.isNotEmpty
+                              ? '$_lastWords'
+                              : 'Tap the microphone to start listening...'
+                          : 'Speech not available',
                 ),
               ),
             ),
@@ -1209,7 +1211,7 @@ class _MyHomePageState extends State<MyHomePage> {
           FloatingActionButton(
             onPressed: () {
               setState(() {
-                _lastWords1 += "\n" + convertToEklg(_lastWords);
+               _lastWords1 =  "$_lastWords1\n${convertToEklg(_lastWords)}";
               });
             },
             tooltip: 'Convert',
@@ -1230,8 +1232,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           FloatingActionButton(
             onPressed:
-            // If not yet listening for speech start, otherwise stop
-            _speechToText.isNotListening ? _startListening : _stopListening,
+                // If not yet listening for speech start, otherwise stop
+                _speechToText.isNotListening ? _startListening : _stopListening,
             tooltip: 'Listen',
             child: Icon(_speechToText.isNotListening ? Icons.mic_off : Icons.mic),
           ),
