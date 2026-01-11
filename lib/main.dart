@@ -391,18 +391,18 @@ class _MyHomePageState extends State<MyHomePage> {
     "દઃ": "'7",
 
     // ધ family
-    "ધ": "\"",
-    "ધા": "\"t",
-    "ધિ": "r\"",
-    "ધી": "\"e",
-    "ધુ": "\"w",
-    "ધૂ": "\"q",
-    "ધે": "\"u",
-    "ધૈ": "\"i",
-    "ધો": "\"tu",
-    "ધૌ": "\"ti",
-    "ધં": "\"k",
-    "ધઃ": "\"7",
+    "ધ": "\"t",
+    "ધા": "\"tt",
+    "ધિ": "r\"t",
+    "ધી": "\"te",
+    "ધુ": "\"tw",
+    "ધૂ": "\"tq",
+    "ધે": "\"tu",
+    "ધૈ": "\"ti",
+    "ધો": "\"ttu",
+    "ધૌ": "\"tti",
+    "ધં": "\"tk",
+    "ધઃ": "\"t7",
 
     // ન family
     "ન": "lt",
@@ -997,7 +997,7 @@ class _MyHomePageState extends State<MyHomePage> {
           FloatingActionButton(
             onPressed: () {
               setState(() {
-                _lastWords1 += "\n" + convertToEklg(_lastWords);
+               _lastWords1 =  "$_lastWords1\n${convertToEklg(_lastWords)}";
               });
             },
             tooltip: 'Convert',
