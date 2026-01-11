@@ -707,7 +707,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "ડ્ર": "z[",
     "ઢ્ર": "Z[",
     "ણ્ર": "Kt{",
-    "ત્ર": "*t{",
+    "ત્ર": "*t",
     "થ્ર": ";t{",
     "દ્ર": "Y{",
     "ન્ર": "lt{",
