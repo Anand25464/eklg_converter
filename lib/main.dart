@@ -686,6 +686,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "ર્લ": "jto",
     "ર્ળ": "Go",
     "ર્વ": "Jto",
+    "ર્વા": "Jtto",
     "ર્શ": "Nto",
     "ર્ષ": "Mto",
     "ર્સ": "mto",
