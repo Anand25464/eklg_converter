@@ -478,6 +478,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // મ family
     "મ": "bt",
     "મા": "btt",
+    "માં": "bttk",
     "મિ": "rbt",
     "મી": "bte",
     "મુ": "btw",
@@ -695,7 +696,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "ર્ક્ષ": "Hto",
     "ર્જ્ઞ": "\\to",
 
-    "ક્ર": "-",
+    "ક્ર": "_",
     "ખ્ર": "Ft{",
     "ગ્ર": "dt{",
     "ઘ્ર": "Dt{",
