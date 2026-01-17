@@ -1214,6 +1214,7 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: () {
               setState(() {
                _lastWords1 =  "$_lastWords1\n${convertToEklg(_lastWords)}";
+               _lastWords ='';
               });
             },
             tooltip: 'Convert',
